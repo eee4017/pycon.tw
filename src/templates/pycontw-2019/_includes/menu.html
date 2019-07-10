@@ -53,8 +53,8 @@
 		<label for="menu-navbar-{{ type }}-conference">{% trans 'Conference' context 'menu' %}</label>
 		<div class="dropdown">
 			<ul class="submenu">
-				{% comment %}
 				<li><a href="{{ events_overview_url }}">{% trans 'Overview' %}</a></li>
+				{% comment %}
 				<li><a href="{{ events_schedule_url }}">{% trans 'Schedule' %}</a></li>
 				<li><a href="{{ events_keynote_url }}">{% trans 'Keynotes' %}</a></li>
 				{% endcomment %}
@@ -73,7 +73,6 @@
 		<div class="dropdown">
 			<ul class="submenu">
 				<li><a href="{{ events_tutorial_url }}">{% trans 'Learning' context 'menu' %}</a></li>
-				<li><a href="{{ events_sprint_url }}">{% trans 'Sprints' %}</a></li>
 				<li><a href="{{ events_openspaces_url }}">{% trans 'Open Spaces' %}</a></li>
 			</ul>
 		</div>
